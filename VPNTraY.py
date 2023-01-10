@@ -9,8 +9,8 @@ from PyQt5.QtWidgets import QApplication, QSystemTrayIcon, QMenu, QAction
 
 
 
-exit_node="100.78.226.7"
-external_ip_to_check_against="195.62.195.246"
+exit_node="insert ip here!" # this is the tailscale ip address for the exit node! just replace with what ip you want
+external_ip_to_check_against="insert ip here" # exit node external ip. only use for checking if succesfully connected
 
 
 
