@@ -16,9 +16,12 @@ Sudo needs to be setup without a password. It can be easiley change in the scrip
 
 how to run:
 just extract the directory into a path (e.g.: /home/)
-create a startup sh script that has
+create a startup.sh script that has
 
-python3 VPNTraY.py
+
+#!/bin/bash
+
+python3 VPNtray.py
 
 
 Add that script to startup from the DE. ( not using cron!)
