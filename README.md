@@ -4,7 +4,7 @@ This is a simple Tailscale tray icon for connecting to a Tailscale exit node. Ve
 This runs on Python3 and it is used to connect to a Tailscale exit node. At the moment, you can only insert the node manually once! That is because this works for me and 
 i don`t need anything else
 
-Requirements: curl and libnotify-bin, and of course python3!
+Requirements: curl, libnotify-bin, and of course python3!
 
 When it stops the connection it also stops the tailscaled systemd service! this is to save battery!
 
